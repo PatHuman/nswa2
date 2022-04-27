@@ -1,0 +1,9 @@
+
+@import '../lib/bootstrap/dist/css/bootstrap.css'; 
+@import "../lib/fontawesome/css/font-awesome.min.css";
+@import "../lib/ionicons/css/ionicons.css";
+@import "../lib/owlcarousel/owl-carousel/owl.carousel.css";
+@import "../lib/owlcarousel/owl-carousel/owl.theme.css";
+@import "../lib/FlexSlider/flexslider.css";
+@import "../lib/magnific-popup/dist/magnific-popup.css"; 
+/* @import "../css/ie_fix.css"; */
