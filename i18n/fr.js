@@ -118,7 +118,7 @@ export default {
                     title:"Nos categories de clients",
                     subtitle:"",
                     agents:{
-                        title:"Les agents d’application des produits de lutte contre les nuisibles (PCO)",
+                        title:"Les agents d’application des produits (PCO)",
                         text:`Ces professionnels constituent un maillon très essentiel dans l’atteinte des résultats d’efficacité des produits utilisés. C‘est pourquoi, NEXT STOP porte une attention particulière quant au choix de ses partenaires PCO dans l’exécution des programmes de traitement.
                               Par ailleurs, Next Stop contribue à la mise à niveau de ces professionnels pour prendre en compte l’évolution des législations et des normes en la matière, par le biais de formation et d’appui technique réguliers.`
                     },

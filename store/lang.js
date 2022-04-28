@@ -1,5 +1,5 @@
 export const state = () => ({
-    lang: localStorage.getItem('lang') || 'en'
+    lang: 'en'
   })
   
   export const mutations = {

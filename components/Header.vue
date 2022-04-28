@@ -52,11 +52,11 @@
 
                
                 <li>
-                  <a  v-if="lang == 'fr'" href="#" @click.prevent.stop="setLocale('en')">
+                  <a  v-if="lang == 'fr'" href="/" @click.prevent.stop="setLocale('en')">
                  <!-- <span class="flag-icon flag-icon-us"></span>  -->
                  <span class="fi fi-us "></span> EN
                  </a>  
-                 <a v-if="lang == 'en'" href="#" @click.prevent.stop="setLocale('fr')">
+                 <a v-if="lang == 'en'" href="/" @click.prevent.stop="setLocale('fr')">
                  <!-- <span class="flag-icon flag-icon-fr"></span>   -->
                  <span class="fi fi-fr "></span> FR
                  </a>                  
@@ -104,7 +104,7 @@ export default {
   name: 'Header',
   data: ()=>{
       return {
-          lang: localStorage.getItem('lang')
+          lang: "en"
       }
   },
   mounted() {

@@ -176,7 +176,26 @@
             <h2>{{ $t("home.service.title") }}</h2>
             <span>{{ $t("home.service.subtitle") }}  </span>
         </header>
+        <div class="container">
 
+         <!-- <div class="section-content" style="height:100px">
+            <div class="row">
+                <div class="col-sm-12 lborder">
+
+                    <div class="service">
+                        
+                        <div class="about-service">
+                           
+                             
+                        </div>
+                    </div>
+
+
+                </div>
+                 
+            </div>
+          </div> -->
+        </div>
         
        
     </div> 
@@ -465,7 +484,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>
-                            <h4 class="date">{{ $t("home.objectif.section.client.agents.title") }}</h4>
+                            <h6 class="date">{{ $t("home.objectif.section.client.agents.title") }}</h6>
                             <div class="blog-element">
                                 <img class="img-responsive" src="/assets/images/ns/desinfection.jpg" alt="">
                             </div>
@@ -481,7 +500,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>
-                            <h4 class="date">{{ $t("home.objectif.section.client.industry.title") }} </h4>
+                            <h6 class="date">{{ $t("home.objectif.section.client.industry.title") }} </h6>
                             <div class="blog-element">
                                 <img class="img-responsive" src="/assets/images/ns/beer-factory.jpg" alt="">
                             </div>
@@ -498,7 +517,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>
-                            <h4 class="date">{{ $t("home.objectif.section.client.warehouse.title") }}</h4>
+                            <h6 class="date">{{ $t("home.objectif.section.client.warehouse.title") }}</h6>
                             <div class="blog-element">
                                 <img class="img-responsive" src="/assets/images/ns/maize.jpg" alt="">
                             </div>
@@ -518,7 +537,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>
-                            <h4 class="date">{{ $t("home.objectif.section.client.hotel.title") }}</h4>
+                            <h6 class="date">{{ $t("home.objectif.section.client.hotel.title") }}</h6>
                             <div class="blog-element">
                                 <img class="img-responsive" src="/assets/images/ns/restaurant.jpg" alt="">
                             </div>
@@ -551,7 +570,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>
-                            <h4 class="date">{{ $t("home.objectif.section.client.storage.title") }}</h4>
+                            <h6 class="date">{{ $t("home.objectif.section.client.storage.title") }}</h6>
                             <div class="blog-element">
                                 <img class="img-responsive" src="/assets/images/ns/silo.jpg" alt="">
                             </div>
@@ -855,8 +874,8 @@
                         frameborder="0"></iframe>
             </li>            
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
-                    <img src="/assets/images/ns/autoroute1.jpg" alt="" />
+                <a href="#">
+                    <img src="assets/images/ns/autoroute1.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
                             <div class="middle-align-cell">
@@ -869,8 +888,8 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
-                    <img src="/assets/images/ns/drone.jpg" alt="" />
+                <a href="#">
+                    <img src="assets/images/ns/drone.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
                             <div class="middle-align-cell">
@@ -883,7 +902,7 @@
             </li>            
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/maize.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -897,7 +916,7 @@
             </li> 
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/autoroute2.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -911,7 +930,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/plane.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -925,7 +944,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/hotel.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -939,7 +958,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/disinfection-1.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -953,7 +972,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/train1.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -967,7 +986,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/nextstop_plan2.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -981,7 +1000,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/train2.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -995,7 +1014,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/phytosanitaire.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1009,7 +1028,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/flies.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1023,7 +1042,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/nature-bio.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1037,7 +1056,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/silo.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1051,7 +1070,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/mosquito.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1065,7 +1084,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/trap0.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1079,7 +1098,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/tech.png" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1093,7 +1112,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/trap1.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
@@ -1107,7 +1126,7 @@
             </li>
 
             <li data-category="photo" class="photo">
-                <a href="portfolio__single.html">
+                <a href="#">
                     <img src="/assets/images/ns/desinfection.jpg" alt="" />
                     <div class="portfolio-detail-overlay">
                         <div class="middle-align-wrap">
