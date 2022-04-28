@@ -1482,13 +1482,13 @@ $("a[href='#totop']").click(function() {
 
 
 /* FlexSlider */
-$(window).load(function() {
-	$('.flexslider').flexslider({
-		animation: "fade",
-        easing: "swing",
-		controlNav: false
-    });
-});
+// $(window).load(function() {
+// 	$('.flexslider').flexslider({
+// 		animation: "fade",
+//         easing: "swing",
+// 		controlNav: false
+//     });
+// });
 
 /* text rotator */
 $(".rotate").textrotator({
