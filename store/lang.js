@@ -14,7 +14,7 @@ export const state = () => ({
   // contains your actions
   export const actions = {
     changeLang({ state, commit }, lang){
-        console.log(lang)
+        // console.log(lang)
       commit('setLang',  lang)
     }
   }

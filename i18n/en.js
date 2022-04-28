@@ -203,6 +203,14 @@ export default {
             title:"",
             subtitle:"",
             findus:"Find us on Google map", 
+            address:{
+                line1:"Next Stop West Africa Ghana Ltd",
+                line2:"Primrose Place, Patrice Lumumba St,",
+                postal:"P.O Box 317 Accra Ghana",
+                country:"Ghana",
+                tel:"Tel: +233 50 451 1640",
+                email:"support@nextstopwestafrica.com "
+            }
         },
         copyright:{
             text: "N E X T - S T O P West Africa"

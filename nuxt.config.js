@@ -2,7 +2,7 @@
 const {fr, en} = require('./i18n')
 // const lang = navigator.language || navigator.userLanguage 
 // const langcode  = lang.split("-")[0]
-const langcode = 'fr'
+const langcode = 'en'
 
 // console.log(fr)
 // localStorage.setItem('lang', lang.split("-")[0])
@@ -96,6 +96,7 @@ export default {
       lazy: true,
       strategy: "no_prefix",
     defaultLocale: langcode,
+    fallbackLocale: 'en'
     // vueI18n: {
     //   fallbackLocale: 'en',
     //   messages: {

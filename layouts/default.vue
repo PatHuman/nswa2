@@ -65,7 +65,7 @@ export default {
       }
   },
   mounted() {
-      console.log(this.date, this.date.getYear())
+    //   console.log(this.date, this.date.getYear())
   },
 }
 </script>

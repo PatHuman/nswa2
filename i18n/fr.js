@@ -173,6 +173,14 @@ export default {
             title:"",
             subtitle:"",
             findus:"Trouvez nous sur Google map", 
+            address:{
+                line1:"Next Stop Hygiène Publique AO",
+                line2:"Avenue Chardy, Plateau,",
+                postal:"01 BP 5457 Abidjan 01  Abidjan, ",
+                country:"Côte d'Ivoire",
+                tel:"Tel: +233 50 451 1640",
+                email:"support@nextstopwestafrica.com "
+            }
         },
         copyright:{
             text: "NEXT STOP Hygiène Publique"

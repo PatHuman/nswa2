@@ -1168,11 +1168,11 @@
                         <div class="col-sm-6">
                             <div>
                                 <!-- <img width="80" class="img-responsive center-block" src="/assets/images/ns/NSWAG.png" alt=""> -->
-                                <h5>Next Stop Hygiène Publique AO</h5>
+                                <h5>{{ $t("home.contact.address.line1") }}</h5>
                                 <address class="contact-info"> 
-                                    <span>Avenue Chardy, Plateau</span>, <br>
-                                    <span>01 BP 5457 Abidjan 01</span><br>
-                                    <span>Abidjan, Côte d'Ivoire</span>
+                                    <span>{{ $t("home.contact.address.line2") }}</span>, <br>
+                                    <span>{{ $t("home.contact.address.postal") }}</span><br>
+                                    <span>{{ $t("home.contact.address.country") }}</span>
                                 </address>
                             </div>
 
@@ -1181,17 +1181,17 @@
                             <div>
                                 <h5>Contact Information</h5>
                                 <div class="contact-info">
-                                    Local: ( 33 1) 42 68 53 00<br>
-                                    Mobile: ( 33 1) 42 68 53 01<br>
-                                    info@themewagon.com
+                                    Local: {{ $t("home.contact.address.tel") }}<br>
+                                    <!-- Mobile: ( 33 1) 42 68 53 01<br> -->
+                                    {{ $t("home.contact.address.email") }}
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <h5>{{ $t("home.contact.findus") }}</h5>
+                    <!-- <h5>{{ $t("home.contact.findus") }}</h5>
                     <div class="google-map">
                         <div id="map"></div>
-                    </div>                    
+                    </div>                     -->
                 </div>
             </div>
         </div>
@@ -1283,10 +1283,20 @@ computed:{
   },
   methods: {
     readMoreHandler(){
+        var txt = {
+            fr:{
+                on:"VOIR MOINS",
+                off:"VOIR PLUS"
+            },
+            en:{
+                on:"READ LESS",
+                off:"READ MORE"
+            }            
+        }
         var oText = { 
-            on:"READ LESS",
-            off:"READ MORE"
-		}
+            on: txt[this.locale.lang].on,
+			off: txt[this.locale.lang].off
+        }
 		// var text = $(this).next("p")  
 		var text = $(this).prev("p") 
 		if($(this).is(":visible")){
