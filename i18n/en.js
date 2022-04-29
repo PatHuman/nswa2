@@ -348,9 +348,9 @@ export default {
                     intro:"As diseases represent one of the main causes of poverty in Africa, we work at all levels in the value chain to provide solutions capable of effectively combating the vectors of these diseases, mainly the pests responsible for tropical diseases such as malaria, dengue fever, yellow fever, Zika virus, etc.",
                     flies:{
                         title:"Flies and their harmfulness",
-                        text:`Flies are seen by humans as a nuisance because some species particularly appreciate environments rich in microorganisms (such as excrement). They are then physically in contact with the bacteria and other pests they carry.
+                        text:`Flies are seen by humans as a nuisance because some species particularly appreciate environments rich in microorganisms such as excrement. They are then physically in contact with the bacteria and other pests they carry.
                                 These flies are therefore often responsible for serious diseases such as typhoid fever, cholera, Ebola fever, salmonellosis, dysentery, tuberculosis, etc.
-                                <b>In partnerships with international companies, Next Stop distributes a range of products capable of dealing with the dangers posed by these parasites and other pests.</b>`
+                                In partnerships with international companies, Next Stop distributes a range of products capable of dealing with the dangers posed by these parasites and other pests.`
                     },
                     moskito:{
                         title:"Mosquitoes and their harmfulness",

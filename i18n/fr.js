@@ -319,7 +319,7 @@ export default {
                     intro:" Parce que les maladies représentent l’une des principales causes de la pauvreté en Afrique, nous travaillons à tous les maillons de la chaine de valeur afin d’apporter des solutions capables de lutter efficacement contre les vecteurs de ces maladies, essentiellement les nuisibles responsables des maladies tropicales comme le paludisme, la dengue, la fièvre jaune, le virus Zika, etc…",
                     flies:{
                         title:"LES MOUCHES ET LEUR NOCIVITE",
-                        text:`Les mouches sont vues par l’homme comme une nuisance car certaines espèces apprécient particulièrement les milieux riches en microorganismes (comme les excréments). Elles sont alors physiquement en contact avec des bactéries et autres nuisibles qu’elles transportent. Ces mouches sont donc bien souvent responsables de graves maladies comme la fièvre typhoïde, le choléra, la fièvre Ébola, les salmonelloses, la dysenterie, la tuberculose, etc.
+                        text:`Les mouches sont vues par l’homme comme une nuisance car certaines espèces apprécient particulièrement les milieux riches en microorganismes comme les excréments. Elles sont alors physiquement en contact avec des bactéries et autres nuisibles qu’elles transportent. Ces mouches sont donc bien souvent responsables de graves maladies comme la fièvre typhoïde, le choléra, la fièvre Ébola, les salmonelloses, la dysenterie, la tuberculose, etc.
                               En partenariats avec des entreprises internationales, Next Stop distribue une gamme de produits capable de faire face aux dangers que représentent ces parasites et autres nuisibles.`
                     },
                     moskito:{
