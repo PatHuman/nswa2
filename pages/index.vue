@@ -1046,7 +1046,7 @@
                             </div>
 
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 text-right">
                             <div>
                                 <h5>Contact Information</h5>
                                 <div class="contact-info">
