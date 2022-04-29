@@ -8,14 +8,11 @@
       <div class="header-wrapper-inner">
         <div class="container">
           <div class="intro">
-            <!-- <h1>NEXT STOP    <span class="rotate"> west,est,south</span> AFRICA</h1> -->
-
-            <!-- <h1>Hygiène Publique </h1> -->
+ 
             <h1>{{ $t("home.bigTitle.title") }}</h1>
             <p>{{ $t("home.bigTitle.subtitle") }}</p>
             <NuxtLink class="btn btn-default-o onPageNav" to="/services">{{ $t("home.bigTitle.link") }}</NuxtLink>
-            <!-- <a href="services" class="btn btn-default-o onPageNav" >Nos Services</a> -->
-            <!-- <span class="fi fi-gr"></span> <span class="fi fi-gr fis"></span> -->
+            
           </div>
           <!-- /.intro -->
         </div>
@@ -29,7 +26,7 @@
         <!---->
         <header class="section-heading">
           <h2>{{ $t("home.about.title") }}</h2>
-          <!-- <span>Tous savoir sur notre entreprise  </span> -->
+          
         </header>
         <!-- section-heading -->
         <!---->
@@ -39,25 +36,7 @@
             <div class="blog-post">
               <!-- about-center -->
               <figure class="about-content1 center text-center graphic-logo">
-                <!-- <img class="img-responsive center-block" src="https://media.istockphoto.com/photos/fumigator-sanitizing-cleaning-and-disinfection-coronavirus-pandemic-picture-id1308788817?s=612x612" alt=""> -->
-                <!-- <img class="img-responsive center-block" src="https://media.istockphoto.com/photos/fumigator-sanitizing-cleaning-and-disinfection-coronavirus-pandemic-picture-id1308788817?s=612x612" alt=""> -->
-                <!-- <img class="img-responsive center-block" src="https://media.istockphoto.com/vectors/pest-control-design-insect-vector-design-bug-illustration-vector-id1139930309?s=612x612" alt=""> -->
-                <!-- <img class="img-responsive center-block" src="/assets/images/ns/NSWAG_WHITE.png" alt=""> -->
-                <!-- <img
-                  id="mob"
-                  class="hide"
-                  style="width: 100%; height: 100%"
-                  width="100%"
-                  src="~/static//assets/images/ns/nextstop_plan3.jpg"
-                  alt=""
-                />
-                <img
-                  id="desk"
-                  class="hide"
-                  style="width: 65%; height: 100%"
-                  src="~/static//assets/images/ns/nextstop_plan.jpg"
-                  alt=""
-                /> -->
+             
                 <img
                  
                   :style="graphStyle"
@@ -74,8 +53,7 @@
             <div class="col-sm-12 lborder">
               <div class="service">
                 <div class="about-service">
-                  <!-- <h4 class="text-center">Satisfaction client  </h4> -->
-                  <p class="justified">
+                 <p class="justified">
                     {{ $t("home.about.intro") }}
                   </p>
                 </div>
@@ -85,82 +63,6 @@
           </div>
         </div>
         <!-- section-content -->
-
-
-
-        <!-- <div class="section-content">
-          <header class="section-heading">
-            <h3>Vision</h3>
-            <span>   </span>
-          </header>
-           
-          <div class="row">
-            <div class="col-sm-12 lborder">
-              <div class="service">
-                <div class="about-service">
-                  
-                  <p class="justified">
-                    Mettre à la disposition des consommateurs une gamme de
-                    solutions (produits & services) innovante répondant aux
-                    exigences internationales climatiques et environnementales
-                    garantissant les standards internationaux de protections des
-                    biens, des personnes et de leurs consommations.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-
-        <div class="section-content">
-          <header class="section-heading">
-            <h3>Valeurs</h3>
-            <span>  </span>
-          </header>
-          
-          <div class="row">
-            <div class="col-sm-6 why-explain-wrap">
-              
-              <h4>Orientation Client</h4>
-              <div class="why-explain top top-2">
-                <p></p>
-              </div>
-            </div>
-             
-
-            <div class="col-sm-6 why-explain-wrap">
-              
-              <h4>Integrité</h4>
-              <div class="why-explain top top-3">
-                <p></p>
-              </div>
-            </div>
-             
-          </div>
-          
-
-          <div class="row">
-            <div class="col-sm-6 why-explain-wrap">
-               
-              <h4>conformité</h4>
-              <div class="why-explain top top-1">
-                <p></p>
-              </div>
-            </div>
-             
-
-            <div class="col-sm-6 why-explain-wrap">
-               
-              <h4>Efficacité</h4>
-              <div class="why-explain top top-2">
-                <p></p>
-              </div>
-            </div>
-             
-          </div>
-           
-        </div> -->
       </div>
        
     </section>
@@ -173,30 +75,11 @@
     <div class="color-overlay"></div>
     <div class="container">
         <header class="section-heading">
-            <h2>{{ $t("home.service.title") }}</h2>
-            <span>{{ $t("home.service.subtitle") }}  </span>
+            <h2>{{ $t("home.service.title") }}</h2> 
         </header>
         <div class="container">
-
-         <!-- <div class="section-content" style="height:100px">
-            <div class="row">
-                <div class="col-sm-12 lborder">
-
-                    <div class="service">
-                        
-                        <div class="about-service">
-                           
-                             
-                        </div>
-                    </div>
-
-
-                </div>
-                 
-            </div>
-          </div> -->
-        </div>
-        
+ 
+        </div>        
        
     </div> 
 </section> 
@@ -343,7 +226,7 @@
     <div class="container">
         <header class="section-heading">
             <h2>{{ $t("home.objectif.title") }}</h2>
-            <!-- <span>Une entreprise de confiance</span> -->
+            
             <span> </span>
         </header>
 
@@ -354,11 +237,7 @@
 
 <section id="valeurs" class="section blog">
     <div class="container">
-        <!-- <header class="section-heading">
-            <h2>NOS OBJECTIFS & STRATEGIE</h2>
-           
-            <span> </span>
-        </header> -->
+       
 
         <div class="section-content">
 
@@ -390,12 +269,7 @@
                   src="/assets/images/ns/objectifs.jpeg"
                   alt=""
                 /> 
-                <!-- <img
-                 
-                  :style="graphStyle"
-                  :src="graphic"
-                  alt=""
-                />                 -->
+               
               </figure>
             </div>
             </div>  
@@ -527,8 +401,7 @@
                             <p id="warehouse-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.warehouse.text") }}                            
                             </p>
-                            <!-- <a href="#"   class="btn btn-default readmore">READ MORE</a> -->
-                            <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
+                                                       
                              <a     href="#" @click.prevent.stop="readMoreHandler('warehouse')" class="btn btn-default readmore">   {{ boxes.warehouse ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                         </div>
                     </div>
@@ -548,28 +421,13 @@
                             <p id="hotel-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.hotel.text") }}
                             </p>
-                            <!-- <a href="#"  class="btn btn-default readmore">READ MORE</a> -->
                              <a     href="#" @click.prevent.stop="readMoreHandler('hotel')" class="btn btn-default readmore">   {{ boxes.hotel ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
-                            <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
+                            
+                            
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-sm-6 col-md-4">
-                    <div class="blog-post">
-                        <header>
-                            <h6 class="date">Les agriculteurs </h6>
-                            <div class="blog-element">
-                                <img class="img-responsive" src="/assets/images/ns/inbags.jpg" alt="">
-                            </div>
-                        </header>
-                        <div class="blog-content text-center">
-                            <p class="read-text justified">
-                             
-                            </p>
-                            <a href="#" class="btn btn-default readmore">READ MORE</a>
-                        </div>
-                    </div>
-                </div> -->
+ 
                 <div class="col-sm-6 col-md-4">
                     <div class="blog-post1">
                         <header>

@@ -15,22 +15,16 @@
         </div>
     </div>
 </header>
-<!-- <section id="services" class="section dark-bg funfacts">
-    <div class="color-overlay"></div>
-    <div class="container">
-        <header class="section-heading">
-            <h2>Produits et Services</h2>
-            <span>Notre offre de produits alternatifs aux produits chimiques  </span>
-        </header>
-
-        
-      </div> 
-    
-</section> -->
+ 
+ 
 <section id="services1" class="section services">
     <div class="container">
-
+        <header class="section-heading">
+            
+            <span>{{ $t("home.service.subtitle") }}  </span>
+        </header>
          <div class="section-content">
+           
             <div class="row">
                 <div class="col-sm-12 lborder">
 
