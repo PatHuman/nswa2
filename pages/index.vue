@@ -431,7 +431,7 @@
                          </div>
  
                          <!-- <a href="strategy#vector" class="btn btn-default">READ MORE</a> -->
-                          <NuxtLink class="btn btn-default" to="/strategy#vector">READ MORE </NuxtLink>
+                          <NuxtLink class="btn btn-default" to="/strategy#vector">{{ $t("buttons.readmore") }} </NuxtLink>
                      </div>
                  </div>
  
@@ -443,7 +443,7 @@
                          </div>
  
                          <!-- <a href="strategy.html#pest-mgmt" class="btn btn-default">READ MORE</a> -->
-                          <NuxtLink class="btn btn-default" to="/strategy#pest-mgmt">READ MORE </NuxtLink>
+                          <NuxtLink class="btn btn-default" to="/strategy#pest-mgmt">{{ $t("buttons.readmore") }} </NuxtLink>
                      </div>
                  </div>
  
@@ -455,7 +455,7 @@
                          </div>
  
                          <!-- <a href="strategy.html#green-space" class="btn btn-default">READ MORE</a> -->
-                         <NuxtLink class="btn btn-default" to="/strategy#green-space">READ MORE </NuxtLink>
+                         <NuxtLink class="btn btn-default" to="/strategy#green-space">{{ $t("buttons.readmore") }} </NuxtLink>
                      </div>
                  </div>
  
@@ -490,10 +490,10 @@
                             </div>
                         </header>
                         <div class="blog-content text-center">
-                            <p class="read-text justified">
+                            <p id="agent-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.agents.text") }}
                             </p>
-                            <a href="#" @click.prevent.stop="handler" class="btn btn-default readmore">READ MORE</a>
+                           <a   id="agent-btn" href="#" @click.prevent.stop="readMoreHandler('agent')" class="btn btn-default readmore">   {{ boxes.agent ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                         </div>
                     </div>
                 </div>
@@ -506,11 +506,12 @@
                             </div>
                         </header>
                         <div class="blog-content text-center">
-                            <p class="read-text justified">
+                            <p id="industry-txt" class="read-text justified">
                                 {{ $t("home.objectif.section.client.industry.text") }}                           
                             </p>
                             <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
-                            <a href="#"  class="btn btn-default readmore">READ MORE</a>
+                            <!-- <a href="#"  class="btn btn-default readmore">READ MORE</a> -->
+                             <a     href="#" @click.prevent.stop="readMoreHandler('industry')" class="btn btn-default readmore">   {{ boxes.industry ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                         </div>
                     </div>
                 </div>
@@ -523,11 +524,12 @@
                             </div>
                         </header>
                         <div class="blog-content text-center">
-                            <p class="read-text justified">
+                            <p id="warehouse-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.warehouse.text") }}                            
                             </p>
-                            <a href="#"   class="btn btn-default readmore">READ MORE</a>
+                            <!-- <a href="#"   class="btn btn-default readmore">READ MORE</a> -->
                             <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
+                             <a     href="#" @click.prevent.stop="readMoreHandler('warehouse')" class="btn btn-default readmore">   {{ boxes.warehouse ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                         </div>
                     </div>
                 </div>
@@ -543,10 +545,11 @@
                             </div>
                         </header>
                         <div class="blog-content text-center">
-                            <p class="read-text justified">
+                            <p id="hotel-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.hotel.text") }}
                             </p>
-                            <a href="#"  class="btn btn-default readmore">READ MORE</a>
+                            <!-- <a href="#"  class="btn btn-default readmore">READ MORE</a> -->
+                             <a     href="#" @click.prevent.stop="readMoreHandler('hotel')" class="btn btn-default readmore">   {{ boxes.hotel ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                             <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
                         </div>
                     </div>
@@ -576,11 +579,12 @@
                             </div>
                         </header>
                         <div class="blog-content text-center">
-                            <p class="read-text justified">
+                            <p  id="storage-txt" class="read-text justified">
                                {{ $t("home.objectif.section.client.storage.text") }}
                             </p>
                             <!-- <a href="#" @click.prevent.stop="readMoreHandler" class="btn btn-default readmore">READ MORE</a> -->
-                            <a href="#"   class="btn btn-default readmore">READ MORE</a>
+                            <!-- <a href="#"   class="btn btn-default readmore">READ MORE</a>  -->
+                             <a href="#" @click.prevent.stop="readMoreHandler('storage')" class="btn btn-default readmore">   {{ boxes.storage ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                         </div>
                     </div>
                 </div>
@@ -604,14 +608,15 @@
 
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
+                     
                     <h4 class="text-center">{{ $t("home.pillar.solution.title") }}</h4>
                     <div class="why-explain top top-2 text-center">
-                        <p class="read-text justified">
+                        <p  id="solution-txt" class="read-text justified">
                             {{ $t("home.pillar.solution.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
                         <!-- <div class="text-center"> </div> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('solution')" class="btn btn-default readmore bottom">   {{ boxes.solution ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->
@@ -621,10 +626,11 @@
                     <!-- why-choose-us-text -->
                     <h4 class="text-center">{{ $t("home.pillar.distrib.title") }} </h4>
                     <div class="why-explain top top-3 text-center">
-                        <p class="read-text justified">
+                        <p id="distrib-txt" class="read-text justified">
                             {{ $t("home.pillar.distrib.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('distrib')" class="btn btn-default readmore bottom">   {{ boxes.distrib ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->
@@ -634,26 +640,28 @@
                     <!-- why-choose-us-text -->
                     <h4 class="text-center">{{ $t("home.pillar.conseil.title") }} </h4>
                     <div class="why-explain top top-3 text-center">
-                        <p class="read-text justified">
+                        <p id="conseil-txt" class="read-text justified">
                           {{ $t("home.pillar.conseil.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('conseil')" class="btn btn-default readmore bottom">   {{ boxes.conseil ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->                
 
             </div><!-- row -->
-
+ 
             <div class="row">
                 <div class="col-sm-4 why-explain-wrap">
 
                     <!-- why-choose-us-text -->
                     <h4 class="text-center">{{ $t("home.pillar.formation.title") }} </h4>
                     <div class="why-explain top top-1 text-center">
-                        <p class="read-text justified">
+                        <p id="formation-txt" class="read-text justified">
                            {{ $t("home.pillar.formation.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('formation')" class="btn btn-default readmore bottom">   {{ boxes.formation ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->
@@ -663,10 +671,11 @@
                     <!-- why-choose-us-text -->
                     <h4 class="text-center">{{ $t("home.pillar.partner.title") }}</h4>
                     <div class="why-explain top top-2 text-center">
-                        <p class="read-text justified">
+                        <p id="partner-txt" class="read-text justified">
                            {{ $t("home.pillar.partner.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('partner')" class="btn btn-default readmore bottom">   {{ boxes.partner ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->
@@ -676,10 +685,11 @@
                     <!-- why-choose-us-text -->
                     <h4 class="text-center">{{ $t("home.pillar.advocacy.title") }} </h4>
                     <div class="why-explain top top-2 text-center">
-                        <p class="read-text justified">
+                        <p id="advocacy-txt" class="read-text justified">
                           {{ $t("home.pillar.advocacy.text") }}
                         </p>
-                        <a href="#" class="btn btn-default readmore bottom">READ MORE</a>
+                        <!-- <a href="#" class="btn btn-default readmore bottom">READ MORE</a> -->
+                        <a href="#" @click.prevent.stop="readMoreHandler('advocacy')" class="btn btn-default readmore bottom">   {{ boxes.advocacy ? $t("buttons.readless") : $t("buttons.readmore") }}</a>
                     </div>
 
                 </div><!-- col-md-4 col-sm-6 -->                
@@ -696,6 +706,7 @@
     </div><!-- container -->
 </section>
 
+ 
 <section id="valeurs" class="section why-choose-us">
     <div class="container">
         <header class="section-heading">
@@ -1213,12 +1224,26 @@ export default {
       graphic: '',
       graphStyle: 'width: 65%; height: 100%',
       strategyGrpah: 'width: 100%;', 
+    //   boxes:{},
+      boxes:{
+        agent: false,
+        warehouse: false,
+        hotel: false,
+        industry: false,
+        storage: false,
+        solution : false,
+        distrib : false,
+        conseil : false,
+        formation : false,
+        partner : false,
+        advocacy: false,
+      }
     }
   },
 computed:{
   locale(){
     return this.$store.state.lang
-  }
+  } 
 },
   mounted() {
     this.initView()
@@ -1236,89 +1261,35 @@ computed:{
       }
 
     })
-    //   console.log("======>>",this.locale.lang)
-    //   let that = this
-        var txt = {
-            fr:{
-                on:"LIRE MOINS",
-                off:"LIRE PLUS"
-            },
-            en:{
-                on:"READ LESS",
-                off:"READ MORE"
-            }            
-        }
+    var lang = this.locale.lang
 
-		var oText = { 
-            on: txt[this.locale.lang].on,
-			off: txt[this.locale.lang].off
-        }
-        var lang = this.locale.lang
-	$(".readmore").on("click",function(ev, el){
-        ev.preventDefault()
        
-         
-        var oText = { 
-            on:"READ LESS",
-            off:"READ MORE"
-		}
-		// var text = $(this).next("p")  
-        // var oText = { 
-        //     on: txt[that.locale.lang].on,
-		// 	off: txt[that.locale.lang].off
-        // }
-        
-		var text = $(this).prev("p") 
-        // console.log(el, text, $(this).is(":visible", oText))
-		if($(text).is(":visible")){
-			$(this).text(oText.off) 
-			$(text).hide()
-		} else{
-			 
-			$(text).show()
-			$(this).text(oText.on) 
-		}
-	})
+   
+ 
 	     
   },
   methods: {
-    readMoreHandler(){
-        var txt = {
-            fr:{
-                on:"VOIR MOINS",
-                off:"VOIR PLUS"
-            },
-            en:{
-                on:"READ LESS",
-                off:"READ MORE"
-            }            
-        }
-        var oText = { 
-            on: txt[this.locale.lang].on,
-			off: txt[this.locale.lang].off
-        }
-		// var text = $(this).next("p")  
-		var text = $(this).prev("p") 
-		if($(this).is(":visible")){
-			$(this).text(oText.off) 
-			$(text).hide()
-		} else{
-			 
-			$(text).show()
-			el.text(oText.on) 
+    readMoreHandler(elname){
+ 
+        var box = $(`#${elname}-txt`)
+       
+ 
+		if(box.is(":visible")){
+			box.hide() 
+		} else{			 
+			box.show() 
 		}
+         this.boxes[elname]  =  box.is(":visible")
     },
     handler(){},
     setMobileView() {
-      // $("#mob").removeClass("hide")
-      // $("#desk").addClass("hide")
+       
       this.graphic = '/assets/images/ns/nextstop_plan3.jpg'
       this.graphStyle = 'width: 100%; height: 100%'
       this.strategyGrpah = 'width: 100%;'
     },
     setDeskView() {
-      // $("#mob").addClass("hide")
-      // $("#desk").removeClass("hide")
+     
       this.graphic = '/assets/images/ns/nextstop_plan.jpg'
       this.graphStyle = 'width: 65%; height: 100%'
       this.strategyGrpah = 'width: 50%;'

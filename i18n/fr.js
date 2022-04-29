@@ -1,6 +1,10 @@
 
 
 export default {
+    buttons:{
+        readmore: "VOIR PLUS",
+        readless: "VOIR MOINS"
+    },    
     menus:{
         home: "Accueil",
         about: "A Propos",
@@ -192,7 +196,10 @@ export default {
     about:{
         title:"Qui nous sommes",
         subtitle:"",
-        intro:"Next Stop est une entreprise internationale opérant en Afrique de l’Ouest et Centrale dans le domaine de la qualité de vie et du bien-être en général et dans l’hygiène publique en particulier. ",
+        intro:`Next Stop est une entreprise internationale opérant en Afrique de l’Ouest et Centrale dans le domaine de la qualité de vie et du bien-être en général et dans l’hygiène publique en particulier. 
+        L’idée de la création de cette entité résulte du constat d’une offre de solutions innovantes très réduite dans ce secteur face à une demande croissance et de plus en plus exigeante, le tout aggravé par la rareté d’entreprises “standalone hygiène publique” professionnelles, efficaces, engagées et soucieuse d’accompagner en Afrique de l’Ouest et Centrale le développement de l’ensemble des innovations d’ entreprises multinationales opérant dans ce secteur, et ce à travers des partenariats gagnant-gagnant et durables .
+        Pour cette raison, Next Stop établit des partenariats stratégiques avec des entreprises de dimension mondiale afin de mettre en œuvre sur le terrain le développement et la distribution de leurs solutions via ses réseaux partenariales locaux institutionnels et privées.
+        La démarche de Next Stop s’inscrit également dans l’atteinte des objectifs du Millenium challenges, d’où l’importance du choix des partenaires d’affaires, et ce, au regard de sa mission, sa vision et ses valeurs.`,
         mission: {
             title:"Mission",
             text:" Contribuer à l’amélioration de la qualité de vie et du bien vivre de l’être humain dans son espace de vie, de travail et de jeux."

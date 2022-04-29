@@ -51,25 +51,26 @@ if(screenZise > 767){
 
 	})
  
-
+/*
 	$(".readmore").on("click",function(ev){
 		ev.preventDefault()
 		var oText = {
 			on: "READ LESS",
 			off: "READ MORE"
 		}
+		console.log(localStorage.getItem('lang'))
 		// var text = $(this).next("p")  
 		var text = $(this).prev("p") 
 		if($(text).is(":visible")){
-			$(this).text(oText.off) 
+			// $(this).text(oText.off) 
 			$(text).hide()
 		} else{
 			 
 			$(text).show()
-			$(this).text(oText.on) 
+			// $(this).text(oText.on) 
 		}
 	})
-	 
+	 */
 
     $("#contactForm").submit(function(e){
 

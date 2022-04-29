@@ -1,6 +1,10 @@
 
 
 export default {
+    buttons:{ 
+        readmore: "READ MORE",
+        readless: "READ LESS"        
+    },
     menus:{
         home: "Home",
         about: "About us",
@@ -221,7 +225,10 @@ export default {
     about:{
         title:"Who We Are",
         subtitle:"",
-        intro:"Next Stop is an international company operating in West and Central Africa focusing on improving quality of life and well-being through improvement in parasite control in public hygiene.",
+        intro: `Next Stop is an international company operating in West and Central Africa focusing on improving quality of life and well-being through improvement in parasite control in public hygiene.
+        The idea behind the creation of this company is to offer innovative solutions in this sector in the face of growing and increasing demand due to scarcity of “standalone public hygiene” companies. professional, efficient, committed, and keen to support the development of innovations of multinational companies operating in this sector, through win-win and sustainable partnerships in West and Central Africa.
+        For this reason, Next Stop establishes strategic partnerships with global companies to implement the development and distribution of their solutions in the field through its local institutional and private partnership networks.
+        Next Stop's approach is also achieving the objectives of the Millennium Goals, hence the importance of the choice of business partners, in view of its mission, vision and values.`,
         mission: {
             title:"Mission",
             text:"Contribute to improving the quality of life and well-being of human beings in their living, working and social spaces."
