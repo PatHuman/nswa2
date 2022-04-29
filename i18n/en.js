@@ -18,7 +18,10 @@ export default {
         about:{
             title:"Who We Are",
             subtitle:"",
-            intro:"Next Stop is an international company operating in West and Central Africa focusing on improving quality of life and well-being through improvement in parasite control in public hygiene.",
+            intro:`Next Stop is an international company operating in West and Central Africa focusing on improving quality of life and well-being through improvement in parasite control in public hygiene.
+                    The idea behind the creation of this company is to offer innovative solutions in this sector in the face of growing and increasing demand due to scarcity of “standalone public hygiene” companies. professional, efficient, committed, and keen to support the development of innovations of multinational companies operating in this sector, through win-win and sustainable partnerships in West and Central Africa.
+                    For this reason, Next Stop establishes strategic partnerships with global companies to implement the development and distribution of their solutions in the field through its local institutional and private partnership networks.
+                    Next Stop's approach is also achieving the objectives of the Millennium Goals, hence the importance of the choice of business partners, in view of its mission, vision and values.`,
             mission: {
                 title:"Mission",
                 text:"Contribute to improving the quality of life and well-being of human beings in their living, working and social spaces."
@@ -41,8 +44,7 @@ export default {
             title:"PRODUCTS AND SERVICES",
             subtitle:"Our solutions cover a wide variety of products and services dedicated to public hygiene with a view to improving living comfort and well-being.",
             intro:`We develop and promote innovative solutions to control unwanted pests responsible for spreading diseases and causing discomfort in your living, working and relaxation spaces.
-                    (I think you should say (in this section) that we offer chemical free solutions)
-                    Several methods of controlling these pests are proposed, namely:`,
+                   Several methods of controlling these pests are proposed, namely:`,
             pheromone:{
                 title:"Pheromones",
                 text:`Pheromones are volatile substances secreted by living beings (animals, insects, certain plants, etc.), more generally by females. They play a role of recognition and sexual attraction on males who can detect them several kilometers away. Each species emits a specific pheromone. The use of this substance makes it possible to fight very precisely and very effectively against each type of pest.
@@ -116,9 +118,9 @@ export default {
                         intro:"As diseases represent one of the main causes of poverty in Africa, we work at all levels in the value chain to provide solutions capable of effectively combating the vectors of these diseases, mainly the pests responsible for tropical diseases such as malaria, dengue fever, yellow fever, Zika virus, etc.",
                         flies:{
                             title:"Flies and their harmfulness",
-                            text:`Flies are seen by humans as a nuisance because some species particularly appreciate environments rich in microorganisms (such as excrement). They are then physically in contact with the bacteria and other pests they carry.
+                            text:`Flies are seen by humans as a nuisance because some species particularly appreciate environments rich in microorganisms such as excrement. They are then physically in contact with the bacteria and other pests they carry.
                                     These flies are therefore often responsible for serious diseases such as typhoid fever, cholera, Ebola fever, salmonellosis, dysentery, tuberculosis, etc.
-                                    <b>In partnerships with international companies, Next Stop distributes a range of products capable of dealing with the dangers posed by these parasites and other pests.</b>`
+                                    In partnerships with international companies, Next Stop distributes a range of products capable of dealing with the dangers posed by these parasites and other pests.`
                         },
                         moskito:{
                             title:"Mosquitoes and their harmfulness",
@@ -164,7 +166,7 @@ export default {
                             We select distributors based on selection criteria that meet our values.`
                     },
                     hotel:{
-                        title:"Hotel et restaurants",
+                        title:"Hotels and restaurants",
                         text:"We target hotels and restaurants that regularly express unmet needs when it comes to effective and sustainable pest control with which they are constantly confronted."
                     },
                     storage:{
