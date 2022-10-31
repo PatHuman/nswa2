@@ -465,9 +465,14 @@
                 
 
                 <div class="col-sm-4 why-explain-wrap">
-
+                    <header>
+                        <!-- <h6 class="date">{{ $t("home.objectif.section.client.storage.title") }}</h6> -->
+                        <h4 class="text-center">{{ $t("home.pillar.solution.title") }}</h4>
+                        <div class="blog-element">
+                            <img class="img-responsive" src="/assets/images/ns/solutions.jpg" alt="">
+                        </div>
+                    </header>
                      
-                    <h4 class="text-center">{{ $t("home.pillar.solution.title") }}</h4>
                     <div class="why-explain top top-2 text-center">
                         <p  id="solution-txt" class="read-text justified">
                             {{ $t("home.pillar.solution.text") }}
@@ -481,8 +486,13 @@
 
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
-                    <h4 class="text-center">{{ $t("home.pillar.distrib.title") }} </h4>
+                    <header>
+                       
+                        <h4 class="text-center">{{ $t("home.pillar.distrib.title") }} </h4>
+                        <div class="blog-element">
+                            <img class="img-responsive"  src="/assets/images/ns/distrib3.jpg" alt="">
+                        </div>
+                    </header>
                     <div class="why-explain top top-3 text-center">
                         <p id="distrib-txt" class="read-text justified">
                             {{ $t("home.pillar.distrib.text") }}
@@ -495,8 +505,14 @@
 
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
-                    <h4 class="text-center">{{ $t("home.pillar.conseil.title") }} </h4>
+                    <header>
+                       
+                         
+                        <h4 class="text-center">{{ $t("home.pillar.conseil.title") }} </h4>
+                        <div class="blog-element">
+                            <img class="img-responsive" src="/assets/images/ns/consiel3.png" alt="">
+                        </div>
+                    </header>
                     <div class="why-explain top top-3 text-center">
                         <p id="conseil-txt" class="read-text justified">
                           {{ $t("home.pillar.conseil.text") }}
@@ -512,8 +528,14 @@
             <div class="row">
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
-                    <h4 class="text-center">{{ $t("home.pillar.formation.title") }} </h4>
+                    <header>
+                       
+                        
+                        <h4 class="text-center">{{ $t("home.pillar.formation.title") }} </h4>
+                        <div class="blog-element">
+                            <img class="img-responsive" src="/assets/images/ns/training.jpg" alt="">
+                        </div>
+                    </header>
                     <div class="why-explain top top-1 text-center">
                         <p id="formation-txt" class="read-text justified">
                            {{ $t("home.pillar.formation.text") }}
@@ -526,8 +548,14 @@
 
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
-                    <h4 class="text-center">{{ $t("home.pillar.partner.title") }}</h4>
+                    <header>
+                       
+                        <!-- <h4 class="text-center">{{ $t("home.pillar.distrib.title") }} </h4> -->
+                        <h4 class="text-center">{{ $t("home.pillar.partner.title") }}</h4>
+                        <div class="blog-element">
+                            <img class="img-responsive" src="/assets/images/ns/partners.jpeg" alt="">
+                        </div>
+                    </header>
                     <div class="why-explain top top-2 text-center">
                         <p id="partner-txt" class="read-text justified">
                            {{ $t("home.pillar.partner.text") }}
@@ -540,8 +568,14 @@
 
                 <div class="col-sm-4 why-explain-wrap">
 
-                    <!-- why-choose-us-text -->
-                    <h4 class="text-center">{{ $t("home.pillar.advocacy.title") }} </h4>
+                    <header>
+                       
+                        
+                        <h4 class="text-center">{{ $t("home.pillar.advocacy.title") }} </h4>
+                        <div class="blog-element">
+                            <img class="img-responsive" src="/assets/images/ns/advocacy.jpg" alt="">
+                        </div>
+                    </header>                    
                     <div class="why-explain top top-2 text-center">
                         <p id="advocacy-txt" class="read-text justified">
                           {{ $t("home.pillar.advocacy.text") }}

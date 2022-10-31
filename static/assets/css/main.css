@@ -1896,7 +1896,7 @@ blockquote p {
 .why-choose-us .why-explain {
   position: relative; }
   .why-choose-us .why-explain::before {
-    content: "\f00c";
+    /* content: "\f00c"; */
     font-family: FontAwesome;
     position: absolute;
     color: #EAEAEA;
@@ -1948,7 +1948,7 @@ blockquote p {
       -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d; }
     .why-choose-us .why-explain.top {
-      border-top: 1px solid #E5E5E5;
+      /* border-top: 1px solid #E5E5E5; */
       /* border-right: 1px solid #E5E5E5; */
       -webkit-perspective: 1000;
       perspective: 1000; }
