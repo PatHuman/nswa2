@@ -23,20 +23,20 @@
             </div>
 
             <div class="col-md-5 col-sm-4">
-                <!-- <ul class="footer-social-block">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <ul class="footer-social-block">
+                    <li><a href="https://www.facebook.com/profile.php?id=100086884446708" target="_blank"><i class="fa fa-facebook"></i></a></li>
 
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/nextstopwestafrica/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
 
-                    <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
 
-                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
 
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
 
-                </ul> -->
+                </ul> 
             </div>
 
             <div class="col-md-4 col-sm-4">

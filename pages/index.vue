@@ -524,7 +524,7 @@
                 </div><!-- col-md-4 col-sm-6 -->                
 
             </div><!-- row -->
- 
+               <br/> 
             <div class="row">
                 <div class="col-sm-4 why-explain-wrap">
 
@@ -533,7 +533,7 @@
                         
                         <h4 class="text-center">{{ $t("home.pillar.formation.title") }} </h4>
                         <div class="blog-element">
-                            <img class="img-responsive" src="/assets/images/ns/training.jpg" alt="">
+                            <img class="img-responsive" src="/assets/images/ns/training-crp.jpg" alt="">
                         </div>
                     </header>
                     <div class="why-explain top top-1 text-center">
@@ -553,7 +553,7 @@
                         <!-- <h4 class="text-center">{{ $t("home.pillar.distrib.title") }} </h4> -->
                         <h4 class="text-center">{{ $t("home.pillar.partner.title") }}</h4>
                         <div class="blog-element">
-                            <img class="img-responsive" src="/assets/images/ns/partners.jpeg" alt="">
+                            <img class="img-responsive" src="/assets/images/ns/partners-crp.jpeg" alt="">
                         </div>
                     </header>
                     <div class="why-explain top top-2 text-center">
@@ -597,6 +597,7 @@
         </div><!-- section-content -->
     </div><!-- container -->
 </section>
+
 
  
 <section id="valeurs" class="section why-choose-us">
@@ -725,6 +726,99 @@
 
 
 
+<!-- EVENT SECTIOM -->
+
+<section id="valeurs" class="section why-choose-us">
+    <div class="container">
+        <header class="section-heading">
+            <h2>{{ $t("home.events.title") }}</h2>
+            <!-- <span>Une entreprise de confiance</span> -->
+            <!-- <span>{{ $t("home.events.subtitle") }}</span> -->
+        </header>    
+        <!-- <header class="section-heading">
+            <h3> Events</h3> 
+            <span> </span>
+        </header> -->
+
+          
+        <div class="section-content">
+            <div class="row">
+                
+            <!-- <div class="portfolio-grid">
+  
+
+                <ul id="da-thumbs" class="da-thumbs isotope">
+                                
+                    <li data-category="photo" class="photo">
+                        <a href="#">
+                            <img src="assets/images/ns/envu-banner.jpg" alt="" />
+                            <div class="portfolio-detail-overlay">
+                                <div class="middle-align-wrap">
+                                    <div class="middle-align-cell"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    
+
+                    <li data-category="photo" class="photo">
+                        <a href="#">
+                            <img src="/assets/images/ns/envu-welcome.jpg" alt="" />
+                            <div class="portfolio-detail-overlay">
+                                <div class="middle-align-wrap">
+                                    <div class="middle-align-cell"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li data-category="photo" class="photo">
+                        <a href="#">
+                            <img src="/assets/images/ns/envu-build.jpg" alt="" />
+                            <div class="portfolio-detail-overlay">
+                                <div class="middle-align-wrap">
+                                    <div class="middle-align-cell"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li data-category="photo" class="photo">
+                        <a href="#">
+                            <img src="/assets/images/ns/envu-invite.jpg" alt="" />
+                            <div class="portfolio-detail-overlay">
+                                <div class="middle-align-wrap">
+                                    <div class="middle-align-cell"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                        
+                </ul>
+            </div>  -->
+                        
+
+            </div> 
+ 
+     
+ 
+
+
+     
+
+        </div><!-- section-content -->
+    </div><!-- container -->
+</section>
+
+<!-- END OF EVENT SECTIOM -->
+<div id="event-box1" class="section center text-center" >
+    <img src="/assets/images/ns/envu-invite.jpg" alt="" />
+ </div>
 <!-- Portfolio -->
 <section id="media" class="section portfolio">
     <div class="container">

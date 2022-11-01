@@ -853,6 +853,7 @@ blockquote p {
 /* .bg-06 {   background-image: url(https://media.istockphoto.com/photos/fumigator-sanitizing-cleaning-and-disinfection-coronavirus-pandemic-picture-id1308788817); } */
 /* .bg-06 {   background-image: url(https://media.istockphoto.com/photos/spraying-trees-against-pests-picture-id544094886); } */
 /* .bg-06 {   background-image: url(../images/ns/autoroute1.jpg); } */
+/* .bg-06 {   background-image: url(../images/ns/envu-header2.jpg); width: 95%; } */
 .bg-06 {   background-image: url(../images/ns/trap1.jpg); }
 
 .bg-07 {
@@ -2403,6 +2404,11 @@ blockquote p {
 }
 .clickable{
   cursor: pointer;
+}
+
+#event-box{
+  background: url(../images/ns/envu-invite.jpg) no-repeat center center;
+  height: 800px;
 }
 /* .box-header{
   font-size: 20px;

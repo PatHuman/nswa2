@@ -198,6 +198,17 @@ export default {
                 nigeria:"Nigeria",
             }
         },
+        events:{
+            title:"Events",
+            subtitle:"",
+            intro:"",
+            fr:{
+                title:"Evenements", 
+            },
+            en:{
+                title:"Events", 
+            }
+        },        
         media:{
             title:"Media",
             subtitle:"Galery photos and videos",
